@@ -3,11 +3,15 @@ package com.openkairo.objectRepository;
 import java.awt.Desktop.Action;
 import java.time.Duration;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.openkairo.genericUtilty.WebdriverUtility;
 
@@ -113,7 +117,26 @@ public class Home_Page {
 		a.moveToElement(SignOutButton).pause(Duration.ofSeconds(2)).click().build().perform();
 	}
 
-	
+	public void handlePopup()
+	{
+	    try
+	    {
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+
+	        WebElement popup = wait.until(
+	            ExpectedConditions.presenceOfElementLocated(
+	                By.xpath("//button[contains(.,'Got it')]")
+	            )
+	        );
+
+	        popup.click();
+	        System.out.println("Popup closed");
+	    }
+	    catch (TimeoutException e)
+	    {
+	        System.out.println("Popup not displayed. Continuing...");
+	    }
+	}
 	
 	
 	

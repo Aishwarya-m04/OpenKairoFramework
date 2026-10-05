@@ -33,7 +33,7 @@ public class WardAdmitTest extends BaseClass{
 				//handling popup
 				Thread.sleep(3000);
 				Home_Page h = new Home_Page(driver);
-				h.getPopUp().click();
+				h.handlePopup();
 				
 				//ward creation
 				Patient_Page pp=new Patient_Page(driver);
