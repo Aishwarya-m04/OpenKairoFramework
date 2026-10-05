@@ -202,7 +202,7 @@ public class Patient_Page {
 		w.explicitWait(driver, SelectPatient, 15);
 		SelectPatient.click();
 	//	WardDD.click();
-		w.explicitWait(driver, AdmitButton, 15);
+		w.explicitWait(driver,ConfirmAdmitButton, 15);
         ConfirmAdmitButton.click();
 	}
 	
