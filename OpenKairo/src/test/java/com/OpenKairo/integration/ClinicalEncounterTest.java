@@ -35,7 +35,7 @@ ExcelUtility e=new ExcelUtility();
 		//handling popup
 		Thread.sleep(3000);
 		Home_Page h = new Home_Page(driver);
-		h.getPopUp().click();
+		h.handlePopup();
 		
 		Nurse_Page np=new Nurse_Page(driver);
 		np.addVitals(pLastName);

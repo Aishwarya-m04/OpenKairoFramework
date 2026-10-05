@@ -40,7 +40,7 @@ public class NursingJourneyTest extends BaseClass
 		    String pFirstName = e.readDataFromExcelFile("Pname", 1, 0);
 		    String pLastName = e.readDataFromExcelFile("Pname", 1, 1);
 		    Home_Page h1 = new Home_Page(driver);
-		    h1.getPopUp().click();
+		    h1.handlePopup();
 
 		    Nurse_Page np = new Nurse_Page(driver);
 

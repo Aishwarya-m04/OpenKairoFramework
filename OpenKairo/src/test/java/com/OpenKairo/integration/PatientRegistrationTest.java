@@ -37,7 +37,7 @@ public class PatientRegistrationTest extends BaseClass
   		
   		Thread.sleep(3000);
   		Home_Page h = new Home_Page(driver);
-  		h.getPopUp().click();
+  		h.handlePopup();
   		
   		
   		String date = j.currentDate();

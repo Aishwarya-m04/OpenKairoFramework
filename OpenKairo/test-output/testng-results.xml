@@ -5,42 +5,42 @@
       <![CDATA[Login done]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-10-05T13:11:29 IST" name="Default suite" finished-at="2026-10-05T13:11:42 IST" duration-ms="12441">
+  <suite started-at="2026-10-05T13:21:55 IST" name="Default suite" finished-at="2026-10-05T13:22:09 IST" duration-ms="13925">
     <groups>
       <group name="smoke">
-        <method signature="WardAdmitTest.wardAdmitTest()[pri:0, instance:com.OpenKairo.smoke.WardAdmitTest@3fc2959f]" name="wardAdmitTest" class="com.OpenKairo.smoke.WardAdmitTest"/>
+        <method signature="WardAdmitTest.wardAdmitTest()[pri:0, instance:com.OpenKairo.smoke.WardAdmitTest@6a78afa0]" name="wardAdmitTest" class="com.OpenKairo.smoke.WardAdmitTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-10-05T13:11:29 IST" name="Default test" finished-at="2026-10-05T13:11:42 IST" duration-ms="12441">
+    <test started-at="2026-10-05T13:21:55 IST" name="Default test" finished-at="2026-10-05T13:22:09 IST" duration-ms="13925">
       <class name="com.OpenKairo.smoke.WardAdmitTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.OpenKairo.smoke.WardAdmitTest@3fc2959f]" started-at="2026-10-05T13:11:29 IST" name="configBS" finished-at="2026-10-05T13:11:29 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.OpenKairo.smoke.WardAdmitTest@6a78afa0]" started-at="2026-10-05T13:21:55 IST" name="configBS" finished-at="2026-10-05T13:21:55 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.OpenKairo.smoke.WardAdmitTest@3fc2959f]" started-at="2026-10-05T13:11:29 IST" name="configBC" finished-at="2026-10-05T13:11:30 IST" duration-ms="1012" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.OpenKairo.smoke.WardAdmitTest@6a78afa0]" started-at="2026-10-05T13:21:55 IST" name="configBC" finished-at="2026-10-05T13:21:56 IST" duration-ms="1085" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.OpenKairo.smoke.WardAdmitTest@3fc2959f]" started-at="2026-10-05T13:11:30 IST" name="configBM" finished-at="2026-10-05T13:11:31 IST" duration-ms="950" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.OpenKairo.smoke.WardAdmitTest@6a78afa0]" started-at="2026-10-05T13:21:56 IST" name="configBM" finished-at="2026-10-05T13:21:57 IST" duration-ms="890" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="wardAdmitTest()[pri:0, instance:com.OpenKairo.smoke.WardAdmitTest@3fc2959f]" started-at="2026-10-05T13:11:31 IST" name="wardAdmitTest" finished-at="2026-10-05T13:11:41 IST" duration-ms="10123" status="PASS">
+        <test-method signature="wardAdmitTest()[pri:0, instance:com.OpenKairo.smoke.WardAdmitTest@6a78afa0]" started-at="2026-10-05T13:21:57 IST" name="wardAdmitTest" finished-at="2026-10-05T13:22:08 IST" duration-ms="11658" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login done]]>
             </line>
           </reporter-output>
         </test-method> <!-- wardAdmitTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.OpenKairo.smoke.WardAdmitTest@3fc2959f]" started-at="2026-10-05T13:11:41 IST" name="configAM" finished-at="2026-10-05T13:11:41 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.OpenKairo.smoke.WardAdmitTest@6a78afa0]" started-at="2026-10-05T13:22:08 IST" name="configAM" finished-at="2026-10-05T13:22:08 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.OpenKairo.smoke.WardAdmitTest@3fc2959f]" started-at="2026-10-05T13:11:41 IST" name="configAC" finished-at="2026-10-05T13:11:42 IST" duration-ms="316" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.OpenKairo.smoke.WardAdmitTest@6a78afa0]" started-at="2026-10-05T13:22:08 IST" name="configAC" finished-at="2026-10-05T13:22:09 IST" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.OpenKairo.smoke.WardAdmitTest@3fc2959f]" started-at="2026-10-05T13:11:42 IST" name="configAS" finished-at="2026-10-05T13:11:42 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.OpenKairo.smoke.WardAdmitTest@6a78afa0]" started-at="2026-10-05T13:22:09 IST" name="configAS" finished-at="2026-10-05T13:22:09 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
